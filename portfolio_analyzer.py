@@ -233,21 +233,3 @@ print(log_returns)
 
 
 
-# ── STEP 3: PORTFOLIO CONSTRUCTION ───────────────────────────────
-# Define weights for each ticker (must sum to 1.0)
-# Compute daily portfolio returns as weighted sum of individual returns
-# Hint: (log_returns * weights).sum(axis=1)
-
-
-# ── STEP 5: COMPARISON TABLE ─────────────────────────────────────
-# Print a formatted table showing each ticker vs the portfolio
-# Columns: ticker, annual return, volatility, sharpe, max drawdown
-# Hint: f-strings with fixed width formatting make this look clean
-# Add a final row for the portfolio itself
-
-# ── STEP 6: VISUALIZATION ────────────────────────────────────────
-# Plot 1: cumulative returns for each ticker + portfolio on one chart
-# Plot 2: correlation heatmap using matplotlib imshow
-# Plot 3: bar chart of individual Sharpe ratios
-# Hint: plt.subplot() lets you put all three in one figure 
-
